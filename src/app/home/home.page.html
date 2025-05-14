@@ -13,8 +13,100 @@
     </ion-toolbar>
   </ion-header>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+  <ion-range min="1" max="30" step="1" [(ngModel)]="mes1" pin="true" snaps="true">
+    <ion-label slot="start">1</ion-label>
+    <ion-label slot="end">30</ion-label>
+  </ion-range>
+  <ion-range min="1" max="30" step="1" [(ngModel)]="mes2" pin="true" snaps="true">
+    <ion-label slot="start">1</ion-label>
+    <ion-label slot="end">30</ion-label>
+  </ion-range>
+  <ion-range min="1" max="30" step="1" [(ngModel)]="mes3" pin="true" snaps="true">
+    <ion-label slot="start">1</ion-label>
+    <ion-label slot="end">30</ion-label>
+  </ion-range>
+
+  <ion-button (click)="mediameses()"></ion-button>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col>Fruta</ion-col>
+      <ion-col>Temperatura mínima</ion-col>
+      <ion-col>Temperatura máxima</ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col>Maçãs</ion-col>
+      <ion-col>15 graus</ion-col>
+      <ion-col>22 graus</ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col>Bananas</ion-col>
+      <ion-col>20 graus</ion-col>
+      <ion-col>35 graus</ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col>Pêssegos</ion-col>
+      <ion-col>18 graus</ion-col>
+      <ion-col>25 graus</ion-col>
+    </ion-row>
+  </ion-grid>
+
+
+  <ion-grid>
+    <ion-row>
+      <ion-col>Manga</ion-col>
+      <ion-col>20 graus</ion-col>
+      <ion-col>30 graus</ion-col>
+    </ion-row>
+  </ion-grid>
+
+
+  <ion-grid>
+    <ion-row>
+      <ion-col>Abacaxi</ion-col>
+      <ion-col>20 graus</ion-col>
+      <ion-col>30 graus</ion-col>
+    </ion-row>
+  </ion-grid>
+
+
+  <ion-grid>
+    <ion-row>
+      <ion-col>Melancia</ion-col>
+      <ion-col>25 graus</ion-col>
+      <ion-col>35 graus</ion-col>
+    </ion-row>
+  </ion-grid>
+
+
+  <ion-grid>
+    <ion-row>
+      <ion-col>Limão</ion-col>
+      <ion-col>15 graus</ion-col>
+      <ion-col>30 graus</ion-col>
+    </ion-row>
+  </ion-grid>
+
+
+  <ion-grid>
+    <ion-row>
+      <ion-col>Morangos</ion-col>
+      <ion-col>15 graus</ion-col>
+      <ion-col>25 graus</ion-col>
+    </ion-row>
+  </ion-grid>
+
+
+
+
+
 </ion-content>
