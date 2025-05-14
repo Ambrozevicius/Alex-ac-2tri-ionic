@@ -25,3 +25,19 @@
 #container a {
   text-decoration: none;
 }
+
+
+.meio{
+display: flex;
+align-items: center;
+margin-left: 45%;
+}
+
+.meio_bot{
+  margin-left: 35%;
+}
+
+.meio_bot:hover{
+  color: orange;
+
+}

@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Blank
+      AC02-2TRI-Novas Telas e Range
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -12,22 +12,29 @@
       <ion-title size="large">Blank</ion-title>
     </ion-toolbar>
   </ion-header>
-
-  <ion-range min="1" max="30" step="1" [(ngModel)]="mes1" pin="true" snaps="true">
+<h4 class="meio">MÊS 1</h4>
+  <ion-range min="1" max="40" step="1" [(ngModel)]="mes1" pin="true" snaps="true">
     <ion-label slot="start">1</ion-label>
-    <ion-label slot="end">30</ion-label>
+    <ion-label slot="end">40</ion-label>
   </ion-range>
-  <ion-range min="1" max="30" step="1" [(ngModel)]="mes2" pin="true" snaps="true">
+  <h4 class="meio">MÊS 2</h4>
+  <ion-range min="1" max="40" step="1" [(ngModel)]="mes2" pin="true" snaps="true">
     <ion-label slot="start">1</ion-label>
-    <ion-label slot="end">30</ion-label>
+    <ion-label slot="end">40</ion-label>
   </ion-range>
-  <ion-range min="1" max="30" step="1" [(ngModel)]="mes3" pin="true" snaps="true">
+  <h4 class="meio">MÊS 3</h4>
+  <ion-range min="1" max="40" step="1" [(ngModel)]="mes3" pin="true" snaps="true">
     <ion-label slot="start">1</ion-label>
-    <ion-label slot="end">30</ion-label>
+    <ion-label slot="end">40</ion-label>
+  </ion-range>
+  <h4 class="meio">MÊS 4</h4>
+  <ion-range min="1" max="40" step="1" [(ngModel)]="mes4" pin="true" snaps="true">
+    <ion-label slot="start">1</ion-label>
+    <ion-label slot="end">40</ion-label>
   </ion-range>
 
-  <ion-button (click)="mediameses()"></ion-button>
-
+  <ion-button class="meio_bot" (click)="mediameses()">Quais frutas eu posso plantar ?</ion-button>
+<br><br><br>
   <ion-grid>
     <ion-row>
       <ion-col>Fruta</ion-col>
@@ -36,6 +43,7 @@
     </ion-row>
   </ion-grid>
 
+<br>
   <ion-grid>
     <ion-row>
       <ion-col>Maçãs</ion-col>
@@ -43,7 +51,7 @@
       <ion-col>22 graus</ion-col>
     </ion-row>
   </ion-grid>
-
+<br>
   <ion-grid>
     <ion-row>
       <ion-col>Bananas</ion-col>
@@ -51,7 +59,7 @@
       <ion-col>35 graus</ion-col>
     </ion-row>
   </ion-grid>
-
+<br>
   <ion-grid>
     <ion-row>
       <ion-col>Pêssegos</ion-col>
@@ -59,8 +67,7 @@
       <ion-col>25 graus</ion-col>
     </ion-row>
   </ion-grid>
-
-
+<br>
   <ion-grid>
     <ion-row>
       <ion-col>Manga</ion-col>
@@ -68,8 +75,7 @@
       <ion-col>30 graus</ion-col>
     </ion-row>
   </ion-grid>
-
-
+<br>
   <ion-grid>
     <ion-row>
       <ion-col>Abacaxi</ion-col>
@@ -77,8 +83,7 @@
       <ion-col>30 graus</ion-col>
     </ion-row>
   </ion-grid>
-
-
+<br>
   <ion-grid>
     <ion-row>
       <ion-col>Melancia</ion-col>
@@ -86,8 +91,7 @@
       <ion-col>35 graus</ion-col>
     </ion-row>
   </ion-grid>
-
-
+<br>
   <ion-grid>
     <ion-row>
       <ion-col>Limão</ion-col>
@@ -95,8 +99,7 @@
       <ion-col>30 graus</ion-col>
     </ion-row>
   </ion-grid>
-
-
+<br>
   <ion-grid>
     <ion-row>
       <ion-col>Morangos</ion-col>
@@ -104,9 +107,6 @@
       <ion-col>25 graus</ion-col>
     </ion-row>
   </ion-grid>
-
-
-
 
 
 </ion-content>
