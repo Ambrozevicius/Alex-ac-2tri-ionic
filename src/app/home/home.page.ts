@@ -26,6 +26,9 @@ export class HomePage {
   morango = false;
 
   mediameses() {
+
+
+
     this.media = (this.mes1 + this.mes2 + this.mes3 + this.mes4) / 4;
 
     this.maca = this.media >= 15 && this.media <= 22;
@@ -37,9 +40,11 @@ export class HomePage {
     this.limao = this.media >= 15 && this.media <= 30;
     this.morango = this.media >= 15 && this.media <= 25;
 
-    if (this.maca && this.banana && this.pessego && this.manga && this.abacaxi && this.melancia && this.limao && this.morango) {
-      alert("Infelizmente, nenhuma fruta é compatível com esta temperatura 😖");
-    }
-    console.log(this.maca,this.banana, this.pessego, this.manga, this.abacaxi, this.melancia, this.limao, this.morango)
+    if (this.media < 15 || this.media > 35 ) {
+      alert("infelizmente nenhuma fruta é compatível com esta temperatura 😖")
+     }
+
+    console.log(this.media,this.maca,this.banana, this.pessego, this.manga, this.abacaxi, this.melancia, this.limao, this.morango)
   }
 }
+
