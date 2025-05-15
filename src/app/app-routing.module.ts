@@ -11,6 +11,11 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'tela-resultado/:maca/:banana/:pessego/:manga/:abacaxi/:melancia/:limao/:morango',
+    loadChildren: () => import('./tela-resultado/tela-resultado.module').then( m => m.TelaResultadoPageModule)
+  },
+
 
 ];
 
